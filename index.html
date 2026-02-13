@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFT TECH FUTURISM</title>
+    <style>
+        /* Outfit is more circular, soft, and balanced for letters like J and G */
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&display=swap');
+
+        :root {
+            --baby-blue: #A9D8FF; 
+            --silver-dark: #9A9CA1; /* Your requested hex */
+            --outline: rgba(0, 0, 0, 0.12); 
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--baby-blue);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            color: var(--silver-dark);
+            font-family: 'Outfit', sans-serif;
+            text-align: center;
+        }
+
+        /* HEADER - Softened Curves, Tightened Leading */
+        .header-main {
+            font-size: clamp(3.5rem, 16vw, 11rem);
+            font-weight: 800;
+            text-transform: uppercase;
+            color: var(--silver-dark);
+            line-height: 0.75; /* Tight but breathable */
+            margin-top: 15vh;
+            margin-bottom: 30px;
+            letter-spacing: -3px;
+
+            /* Crisp 1px outline for legibility */
+            text-shadow: 
+                -1px -1px 0 var(--outline),  
+                 1px -1px 0 var(--outline),
+                -1px  1px 0 var(--outline),
+                 1px  1px 0 var(--outline),
+                 0px  4px 10px rgba(0,0,0,0.08); 
+        }
+
+        .author-tag {
+            font-size: 1.1rem;
+            font-weight: 600;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin-bottom: 80px;
+        }
+
+        /* MANIFESTO CONTENT */
+        .manifesto-body {
+            max-width: 820px;
+            padding: 0 40px 100px;
+        }
+
+        .thesis-statement {
+            font-size: 2.6rem;
+            font-weight: 800;
+            line-height: 1.0;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+
+        .content-para {
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 40px;
+            font-size: 0.8rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 768px) {
+            .header-main { font-size: 4.5rem; letter-spacing: -1px; }
+            .thesis-statement { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="header-main">SOFT TECH<br>FUTURISM</h1>
+    
+    <div class="author-tag">AVA JEIDA // 2026</div>
+
+    <div class="manifesto-body">
+        <div class="thesis-statement">What if the future didn’t harden us?</div>
+        
+        <p class="content-para">
+            Soft Tech Futurism is a rejection of Cold Futurism — the era that equated intelligence with detachment, progress with sterility, and strength with aggression. It asserts that advancement does not require emotional suppression or rigid optimization. 
+        </p>
+        
+        <p class="content-para">
+            Softness is not aesthetic fragility. Softness is technology: a design principle in which systems regulate rather than overwhelm, adapt rather than dominate, and protect sensitivity instead of punishing it.
+        </p>
+
+        <p class="content-para">
+            The internet exposed something the old world tried to exclude: neurodivergent minds, disabled bodies, outcasts, and those labeled “too much” were never anomalies — they were signals that the dominant system was incomplete. 
+        </p>
+
+        <p class="content-para">
+            This is not a trend. It is structural correction. The binary itself was the constraint. Masculinity is not hardened in opposition to femininity; it is stabilized by it. Femininity is structural, not decorative.
+        </p>
+    </div>
+
+    <footer>
+        © 2026 AVA JEIDA // POST-COLD RECOVERY
+    </footer>
+
+</body>
+</html>
